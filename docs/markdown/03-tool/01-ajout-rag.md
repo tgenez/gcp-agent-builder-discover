@@ -1,14 +1,37 @@
 
-## expliquer datastore/RAG
+# Qu'est-ce que le Datastore RAG ?
 
-Un produit lié à l'agent est le datastore, cela permet de vectorisé un document pour pouvoir ensuite l'utiliser avec le modèle LLM
+Le Datastore RAG (Retrieval-Augmented Generation) combine le stockage de données vectorisées avec des modèles de langage avancés.
 
 ##==##
 
-## FAQ RAG
 
-format fichier pour csv faq
+# Fonctionnement
 
-## screenshot
+* **Vectorisation des documents** : Les documents sont convertis en représentations vectorielles.
+* **Stockage efficient** : Ces vecteurs sont stockés dans un datastore optimisé.
+* **Recherche contextuelle** : Lors d'une requête, le système recherche les informations pertinentes.
+* **Génération augmentée** : Le modèle LLM utilise ces informations pour générer des réponses précises.
+<!-- .element: class="list-fragment" -->
 
-Screenshot de l'interface
+##==##
+
+# Avantages
+
+* **Précision accrue** : Fournit des réponses basées sur des données spécifiques.
+* **Contextualisation** : Permet aux agents de comprendre et de répondre dans le contexte approprié.
+* **Évolutivité** : Gère efficacement de grandes quantités de données.
+* **Mise à jour facile** : Les connaissances de l'agent peuvent être mises à jour sans réentraînement complet.
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+# Exemple FAQ
+
+Il faut un fichier CSV au format suivant:
+````
+"question","answer","title","url"
+"question ?","ma réponse","question","http://mywebsite.com"
+````
+
+Attention, il doit être en UTF-8 et LF(retour ligne)

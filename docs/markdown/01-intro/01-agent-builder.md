@@ -2,12 +2,17 @@
 
 <img class="center" style=" height: 750px" src="./assets/images/gcp-vertex-ai.PNG" />
 
-
 ##==##
 
 # Qu'est ce qu'un agent ?
 
-Orchestrates conversation and transactions and instructs LLM, configured with natural language prompts
+Un agent est un composant intelligent qui :
+
+* Orchestre les conversations et les transactions
+* Donne des instructions à un modèle de langage (LLM)
+* Est configuré à l'aide de prompts en langage naturel
+* Un système configurable qui utilise l'intelligence artificielle pour exécuter des tâches complexes
+<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -40,14 +45,62 @@ Orchestrates conversation and transactions and instructs LLM, configured with na
 
 # Schema d'un agent
 
-TODO refaire schema en plusieurs étapes animé
-
-<img class="center" style=" height: 750px" src="./assets/images/schema-agent.PNG" />
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_1.png" />
 
 ##==##
 
-# Quand utiliser ?
+# Schema d'un agent
 
-* L'agent builder produit est pour le besoin de no code
-* Il peut être fait par une personne non dev
-* Besoin de connaissance sur les promptes quand mêmes et de l'IA 
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_2.png" />
+
+##==##
+
+# Schema d'un agent
+
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_3.png" />
+
+##==##
+
+# Schema d'un agent
+
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_4.png" />
+
+##==##
+
+# Schema d'un agent
+
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_5.png" />
+
+##==##
+
+# Schema d'un agent
+
+<img class="center" style=" height: 750px" src="./assets/images/schema-agent_6.png" />
+
+##==##
+
+# Quand utiliser un agent dans GCP ?
+
+* Besoin de développement rapide et sans code
+* Accessibilité pour les non-développeurs
+* Automatisation de tâches répétitives
+* Prototypage et preuve de concept
+<!-- .element: class="list-fragment" -->
+
+Notes:
+Besoin de développement rapide et sans code
+Idéal pour les projets nécessitant une mise en œuvre rapide
+Permet de créer des solutions sans expertise approfondie en programmation
+
+Accessibilité pour les non-développeurs
+Peut être configuré et géré par des professionnels non techniques
+Facilite l'implication des experts métier dans la création de solutions IA
+
+
+Automatisation de tâches répétitives
+Efficace pour gérer des interactions client de base
+Utile pour le traitement de requêtes simples et fréquentes
+
+Prototypage et preuve de concept
+Permet de tester rapidement des idées d'applications IA
+Facilite la démonstration de concepts avant un développement plus poussé

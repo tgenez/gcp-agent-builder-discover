@@ -3,8 +3,7 @@
 
 ## Démonstration
 
-* Construire un bot pour commander un rice noodle
-<!-- .element: class="list-fragment" -->
+* Construire un bot pour un restaurant comme Rice Noodle
 
 Notes:
 

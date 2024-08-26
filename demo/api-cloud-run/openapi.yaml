@@ -1,0 +1,84 @@
+openapi: 3.0.0
+info:
+  title: Command follow api
+  description: This a api to get information on command
+  version: 1.0.0
+servers:
+  - url: https://command-api-jo2vai5vza-ew.a.run.app
+paths:
+  /get-command/{commandId}:
+    get:
+      summary: Get a command.
+      operationId: get-command
+      parameters:
+        - name: commandId
+          in: path
+          required: true
+          description: The token of the file to get.
+          schema:
+            type: number
+      responses:
+        '200':
+          description: The command.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  commandStatus:
+                    type: string
+                    description: The command status.
+                  dateShipping:
+                    type: string
+                    description: date of shipping of the command
+                  dateArrived:
+                    type: string
+                    description: date of arrived of the command
+        '404':
+          description: The file was not found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    description: The error message.
+        '500':
+          description: An unexpected error occurred.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    description: The error message.
+  /order-command:
+    post:
+      summary: order a command
+      operationId: order-command
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: string
+              required:
+                - data
+      responses:
+        '200':
+          description: The command.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  commandStatus:
+                    type: string
+                    description: The command status.
+                  commandId:
+                    type: string
+                    description: The command id.

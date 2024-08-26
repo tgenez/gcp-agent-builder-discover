@@ -1,6 +1,6 @@
 <!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="200" -->
 
-# **Faire son bot conversationnel avec agent builder sur GCP**
+# **Créez votre Assistant IA Personnalisé avec Agent Builder sur GCP**
 
 Notes: 
 

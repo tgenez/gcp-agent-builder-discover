@@ -1,28 +1,26 @@
 
-## Les possibilités de l'agent
+## Capacités de l'agent
 
-Interface simple avec outil de debug pour développer en testant au fur et à messure.
-Agent Capabilities
-Natural Language instructions
-Choice of LLM models with safety controls
-Routing to Tools / Extensions, Data Stores
-Actions (respond, escalate, tool calls)
-Multi-lingual
-
+* Instructions en langage naturel
+* Choix de modèles LLM avec contrôles de sécurité
+* Routage vers outils / extensions / bases de données
+* Actions : réponse, escalade, appels d'outils
+* Support multilingue
 <!-- .element: class="list-fragment" -->
 
 Notes:
+Prendre en compte ce que peut faire l'agent avant de développer
 
 ##==##
 
 ## Outil de développement
 
-Developer Tools
-Simulator
-Few-shot example editor
-Test Cases - regression tests
-Conversation History
-Versioning w/ SxS comparison
+
+* Simulateur intégré
+* Éditeur d'exemples "few-shot"
+* Tests de régression automatisés
+* Historique des échanges
+*  Versionnage avec comparaison côte à côte
 <!-- .element: class="list-fragment" -->
 
 Notes:
@@ -32,9 +30,7 @@ Notes:
 
 ## Intégration multiple platform
 
-L'outil agent builder permet d'intégrer dans bcp d'outil
-
-TODO add sceenshot des intégrations
+<img class="center" style=" height: 750px" src="./assets/images/agent-integration.png" />
 
 ##==##
 
