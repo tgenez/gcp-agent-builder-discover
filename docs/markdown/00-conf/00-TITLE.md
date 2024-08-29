@@ -1,6 +1,6 @@
 <!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="200" -->
 
-# **Créez votre Assistant IA Personnalisé avec Agent Builder sur GCP**
+# **Construisez, testez, déployez : L'Agent Builder GCP démystifié**
 
 Notes: 
 
