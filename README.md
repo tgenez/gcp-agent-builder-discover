@@ -4,7 +4,7 @@ Presentation sur google agent builder product sur GCP
 
 # Diapositives
 
-Vous pouvez voir les diapositives [here](https://tgenez.github.io/google-gen-ai/#/).
+Vous pouvez voir les diapositives [here](https://tgenez.github.io/gcp-agent-builder-discover/#/).
 
 ## Develop
 
