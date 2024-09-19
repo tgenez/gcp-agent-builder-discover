@@ -11,7 +11,6 @@ La fonctionnalité d'exemples permet d'ajouter des échantillons de conversation
 * **Analyse des exemples** : Le système analyse ces exemples pour comprendre le contexte et le style de communication souhaités.
 * **Affinement du modèle** : L'agent utilise ces exemples pour affiner ses réponses et son comportement.
 * **Apprentissage continu** : Les exemples peuvent être mis à jour ou ajoutés au fil du temps pour améliorer constamment l'agent.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 

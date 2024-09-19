@@ -12,7 +12,6 @@ Le Datastore RAG (Retrieval-Augmented Generation) combine le stockage de donnée
 * **Stockage efficient** : Ces vecteurs sont stockés dans un datastore optimisé.
 * **Recherche contextuelle** : Lors d'une requête, le système recherche les informations pertinentes.
 * **Génération augmentée** : Le modèle LLM utilise ces informations pour générer des réponses précises.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 

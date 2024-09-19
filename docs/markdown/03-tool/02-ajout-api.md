@@ -12,7 +12,6 @@ Le Tool API permet d'intégrer des API externes aux agents conversationnels, enr
 * **Instructions d'utilisation** : Des instructions spécifiques sont fournies pour guider l'agent dans l'utilisation de l'API.
 * **Intégration à l'agent** : L'outil est intégré à l'agent, lui permettant d'appeler l'API lorsque nécessaire.
 * **Exécution contextuelle** : L'agent utilise l'API en fonction du contexte de la conversation.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
