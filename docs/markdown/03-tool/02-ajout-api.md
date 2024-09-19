@@ -29,7 +29,7 @@ Le Tool API permet d'intégrer des API externes aux agents conversationnels, enr
 # Cas d'utilisation
 
 * Intégration de services de réservation
-* Accès à des bases de données externes
+* Accèss à des bases de données externes
 * Interaction avec des systèmes IoT
 * Traitement de paiements
 <!-- .element: class="list-fragment" -->

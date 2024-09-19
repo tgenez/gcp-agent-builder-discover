@@ -4,7 +4,7 @@
 * Instructions en langage naturel
 * Choix de modèles LLM avec contrôles de sécurité
 * Routage vers outils / extensions / bases de données
-* Actions : réponse, escalade, appels d'outils
+* Actions : réponse, appels d'outils
 * Support multilingue
 <!-- .element: class="list-fragment" -->
 
@@ -18,12 +18,9 @@ Prendre en compte ce que peut faire l'agent avant de développer
 
 * Simulateur intégré
 * Éditeur d'exemples "few-shot"
-* Tests de régression automatisés
-* Historique des échanges
-*  Versionnage avec comparaison côte à côte
+* Historique des conversations
+* Versionnage avec comparaison côte à côte
 <!-- .element: class="list-fragment" -->
-
-Notes:
 
 
 ##==##

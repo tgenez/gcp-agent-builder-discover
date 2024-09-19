@@ -8,23 +8,10 @@
 
 Un agent est un composant intelligent qui :
 
-* Orchestre les conversations et les transactions
-* Donne des instructions à un modèle de langage (LLM)
-* Est configuré à l'aide de prompts en langage naturel
-* Un système configurable qui utilise l'intelligence artificielle pour exécuter des tâches complexes
-<!-- .element: class="list-fragment" -->
-
-##==##
-
-# Avantages d'un agent
-
-* Plus simple : Instructions en langage naturel vs. code
-* Plus rapide : Aucun entraînement d'intention ou de machine à états nécessaire
-* Gestion robuste des conversations (bavardages, changements de sujet inattendus, etc.) : Amélioration de la qualité
-* S'intègre aux applications d'entreprise, via des outils/extensions
-* Évolutif en ajoutant des agents spécialisés
-* Serverless : PaaS, service managé
-* Pay as you go : paiement à l’utilisation
+* **Orchestre** les conversations et les transactions
+* **Utilise** un modèle de langage (LLM)
+* **Configure** avec prompts en langage naturel
+* **Un système configurable** qui utilise l'intelligence artificielle pour exécuter des tâches complexes
 <!-- .element: class="list-fragment" -->
 
 ##==##
@@ -32,13 +19,33 @@ Un agent est un composant intelligent qui :
 # Qu'est ce que fait un agent ?
 
 * Préserve le contexte de la conversation
-* Se connecter aux outils
-* Stocke les vecteurs RAG (magasins de données)
-* Intégration possible avec d’autres applications via API
+* Se connecter aux outils RAG ou API
 * Résumer et contextualiser les réponses des outils
 * Acheminer vers d'autres agents (agents spécialisés)
-* Raisons : Boucles de raisonnement
-* Prompts complexes : par exemple faire une commande via le chatbot, jusqu’au checkout
+* Prompts complexes : par exemple faire une commande via le chatbot, jusqu’au checkout.
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+# Avantages d'un agent
+
+* **Plus simple** : Instructions en langage naturel vs. code
+* **Plus rapide** : Aucun entraînement d'intention ou de machine à états nécessaire
+* **Integration** aux applications d'entreprise, via des outils/extensions
+* **Serverless** : PaaS, service managé
+* **Pay as you go** : paiement à l’utilisation par requêtes.
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+# Désavantages d'un agent
+
+* **Dépendance à l'écosystème Google** : L'utilisation est limitée à l'environnement GCP
+* **Coûts potentiellement élevés** : tarif à la requêtes élevé
+* **Personnalisation limitée** : Certains aspects avancés peuvent être difficiles à personnaliser
+* **Évolution rapide**  : Les mises à jour fréquentes de l'outil peuvent nécessiter une adaptation constante des utilisateurs
+* **Support potentiellement limité** : Le support technique peut être moins réactif ou personnalisé que pour des solutions open source ou développées en interne.
+* **Limitations des modèles** : Les capacités des agents sont limitées par les modèles d'IA sous-jacents fournis par Google.
 <!-- .element: class="list-fragment" -->
 
 ##==##
