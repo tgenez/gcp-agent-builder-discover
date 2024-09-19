@@ -22,7 +22,6 @@ Le Tool API permet d'intégrer des API externes aux agents conversationnels, enr
 * **Flexibilité** : S'adapte à une grande variété d'API et de services.
 * **Personnalisation** : Permet de créer des agents sur mesure pour des besoins spécifiques.
 * **Interopérabilité** : Facilite l'intégration avec des systèmes existants.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -32,4 +31,3 @@ Le Tool API permet d'intégrer des API externes aux agents conversationnels, enr
 * Accèss à des bases de données externes
 * Interaction avec des systèmes IoT
 * Traitement de paiements
-<!-- .element: class="list-fragment" -->

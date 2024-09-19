@@ -21,7 +21,6 @@ La fonctionnalité d'exemples permet d'ajouter des échantillons de conversation
 * **Amélioration de la précision** : Aide l'agent à mieux comprendre les nuances et les contextes spécifiques.
 * **Réduction des erreurs** : Minimise les réponses hors sujet ou inappropriées.
 * **Facilité d'utilisation** : Permet aux non-experts en IA d'améliorer les performances de l'agent.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -31,4 +30,3 @@ La fonctionnalité d'exemples permet d'ajouter des échantillons de conversation
 * Inclure des exemples de différents styles de communication
 * Mettre régulièrement à jour les exemples en fonction des retours utilisateurs
 * Équilibrer les exemples positifs et négatifs pour une formation complète
-<!-- .element: class="list-fragment" -->

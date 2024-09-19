@@ -12,7 +12,6 @@ Un agent est un composant intelligent qui :
 * **Utilise** un modèle de langage (LLM)
 * **Configure** avec prompts en langage naturel
 * **Un système configurable** qui utilise l'intelligence artificielle pour exécuter des tâches complexes
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -23,7 +22,6 @@ Un agent est un composant intelligent qui :
 * Résumer et contextualiser les réponses des outils
 * Acheminer vers d'autres agents (agents spécialisés)
 * Prompts complexes : par exemple faire une commande via le chatbot, jusqu’au checkout.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -34,19 +32,25 @@ Un agent est un composant intelligent qui :
 * **Integration** aux applications d'entreprise, via des outils/extensions
 * **Serverless** : PaaS, service managé
 * **Pay as you go** : paiement à l’utilisation par requêtes.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
 # Désavantages d'un agent
 
+* Dépendance à l'écosystème Google
+* Coûts potentiellement élevés
+* Personnalisation limitée
+* Évolution rapide
+* Support potentiellement limité
+* Limitations des modèles 
+
+Notes:
 * **Dépendance à l'écosystème Google** : L'utilisation est limitée à l'environnement GCP
 * **Coûts potentiellement élevés** : tarif à la requêtes élevé
 * **Personnalisation limitée** : Certains aspects avancés peuvent être difficiles à personnaliser
 * **Évolution rapide**  : Les mises à jour fréquentes de l'outil peuvent nécessiter une adaptation constante des utilisateurs
 * **Support potentiellement limité** : Le support technique peut être moins réactif ou personnalisé que pour des solutions open source ou développées en interne.
 * **Limitations des modèles** : Les capacités des agents sont limitées par les modèles d'IA sous-jacents fournis par Google.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 

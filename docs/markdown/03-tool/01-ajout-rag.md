@@ -28,7 +28,6 @@ Le Datastore RAG (Retrieval-Augmented Generation) combine le stockage de donnée
 * **Contextualisation** : Permet aux agents de comprendre et de répondre dans le contexte approprié.
 * **Évolutivité** : Gère efficacement de grandes quantités de données.
 * **Mise à jour facile** : Les connaissances de l'agent peuvent être mises à jour sans réentraînement complet.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
