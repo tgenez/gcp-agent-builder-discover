@@ -96,7 +96,7 @@ Notes:
 * Accessibilité pour les non-développeurs
 * Automatisation de tâches répétitives
 * Prototypage et preuve de concept
-<!-- .element: class="list-fragment" -->
+
 
 Notes:
 Besoin de développement rapide et sans code
