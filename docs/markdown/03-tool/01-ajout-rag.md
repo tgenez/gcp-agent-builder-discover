@@ -18,7 +18,7 @@ Le Datastore RAG (Retrieval-Augmented Generation) combine le stockage de donnée
 
 # Grounding
 
-<img class="center" style=" height: 750px" src="./assets/images/grounding_example.PNG />
+<img class="center" style=" height: 750px" src="./assets/images/grounding_example.PNG" />
 
 ##==##
 
